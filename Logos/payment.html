@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+</head>
+<body>
+  <form action="get">
+      <h1>Pyment Form</h1>
+      <h2>Contact Information</h2>
+      <p>Name * : <input type="text" name="name" required>  </p>
+    <fieldset>
+        <legend>Gender</legend>
+      <p>
+          Male <input type="radio" name="Gender" id="Gender" >
+          Female <input type="radio" name="Gender" id="Female" >
+      </p>
+    </fieldset>
+       <p>Address * : <input type="address" required> </p>
+       <p>Email: * <input type="email" required> </p>
+       <p>Pincode * : <input type="number" name="Pincode" id="Pincode" required></p>
+    <h2>Payment Information</h2>
+        <p>Card type * :
+            <select name="Card_type" id="Card_type" required>
+                
+                <option value="">-----Select a Card type------</option> 
+                <option value=""> RuPay </option>
+                <option value=""> VISA </option>
+                <option value=""> Master Card </option>
+            </select>
+        </p>
+        <p>
+            Card number * : <input type="number" name="Card_Number" id="Card_Number" required>
+        </p>
+        <p>
+            Expiry Date * : <input type="Date" name="Expiry" id="Expiry" required >
+        </p>
+        <p>
+            CVV * :  <input type="password" name="CVV" id="C_C_V" required > 
+        </p>
+    <input type="submit" value="Pay Now">
+    
+    
+
+
+  </form>  
+</body>
+</html>
